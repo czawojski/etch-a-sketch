@@ -1,0 +1,50 @@
+/* Grid */
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    /* changed above from nowrap */
+  }
+  .column {
+    flex: 1;
+  }
+}
+
+/* Style */
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  /* font-size: 1.3em; */
+  /* color: #ccc; */
+  background: #000;
+  margin-bottom: 0px;
+}
+
+.column {
+  padding: 15px;
+  /* border: 1px solid #666; */
+  margin: 0;
+  background: #343436;
+  /* max-width: 10px; */
+}
+
+.container {
+  /* max-width: 300px; */
+  /* margin: 0 auto; */
+}
+
+/* div:hover { */
+  /* background-color: green;  */
+/* } */
+
+.color-class {
+  background-color: orange;
+}
+
+  /* div.container > div */
